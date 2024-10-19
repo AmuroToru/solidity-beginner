@@ -1,3 +1,6 @@
+/*这是一个基于solidity语言的拍卖合约Auction，售卖者可以起拍价，拍卖时长，每次竞价冷却时间和延长时长。
+竞价者可以调用bid函数进行竞价。若出现更高竞价，则竞价者可以调用witdraw函数取回竞价金额；
+拍卖结束后售卖者可以通过endFunction函数获得拍卖金额*/
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
